@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hillcrest</title>
+		<link type="text/css" rel="stylesheet" href="style/styleContact.css" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,800,900&display=swap" rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,600,800&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css?family=Lato:800&display=swap"
+			rel="stylesheet"
+        />
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script
+			  src="https://code.jquery.com/jquery-3.4.1.js"
+			  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+			  crossorigin="anonymous"></script>
+		
+        <script src="./js/main.js"></script>
+	</head>
+	<body>
+		<header class="header">
+			<div class="header__cover">
+				<div class="header__cover--container">
+					<a href="#" class="header__logo">
+						<img src="./image/logo.png" alt="Logo-Hillcrest" />
+					</a>
+
+					<ul class="header__menu">
+						<li><a href="index.html">HOME</a></li>
+						<li><a href="aboutUs.html">ABOUT</a></li>
+						<li><a href="ourWork.html">WORK</a></li>
+						<li><a href="process.html">PROCESS</a></li>
+						<li><a href="services.html">SERVICES</a></li>
+						<li><a href="#">CONTACT</a></li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+            <div class="background"></div>
+            <div class="contactUs">
+                <p class="contactUs__title"><span>Contact</span> Us</p>
+                <p>Contact Hillcrest Interiors to start you dream project with our Expert Designers.</p>
+            </div>
+
+            <div class="info__container flex">
+                <div class="info__item">
+                    <img src="./image/contact/address-icon.png" alt="address-icon">
+                    <p class="info__item--title">Address</p>
+                    <p class="info__item--content">
+                            xxx xxxxxx Xi, xxx xxxx,<br/>
+                            xxxxxxxxxxxxxx, xxxxxxxxxxxxxxx,<br/>
+                            xxxxxxx
+                    </p>
+                </div>
+                <div class="info__item">
+                    <img src="./image/contact/email-icon.png" alt="address-icon">
+                    <p class="info__item--title">Email</p>
+                    <p class="info__item--content">
+                            xxxxxxxxxxxxx@xxxxx.xxx<br/>
+                            xxxxxxxxxxx.xxxx@xxxxx.xxx<br/>
+                            xxxxx@xxxxxxxxxxxx.xxx<br/>
+                            
+                        </p>
+                </div>
+                <div class="info__item">
+                        <img src="./image/contact/phone-icon.png" alt="address-icon">
+                        <p class="info__item--title">Phone Number</p>
+                        <p class="info__item--content">
+                            +xx xxx xxx xxx<br/>
+                            +xx xxx xxx xxx<br/>
+                            +xx xxx xxx xxx<br/>
+                            </p><br/>
+                </div>
+                <div class="info__item">
+                        <img src="./image/contact/clock-icon.png" alt="address-icon">
+                        <p class="info__item--title">Business Hours</p>
+                        <p class="info__item--content">
+                                xxxxxx-xxxxxx: xxx to xxx<br/>
+                                xxxxxxxxx: xxxx to xxx<br/>
+                                xxxxxx: xxxxxx <br/>                                
+                        </p>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="contact__container flex">
+                    <div class="send">
+                        <div>
+							<label for="name" class="warning" id="label-name">Input your name please </label>
+							<input type="text" name="name" id="name" placeholder="NAME">
+							
+                        </div>
+                        
+                        <div>
+							<label for="email" class="warning" id="label-email">Input your email please</label>
+							<label for="email" class="warning" id="label-check-email">The email isn't correct</label>
+                            <input type="text" name="email" id="email" placeholder="xxxxxxxxxxxxxxx@GMAIL.COM">
+                        </div>
+                        
+                        <div>
+								<label for="phone" class="warning" id="label-phone">Input your phone please</label>								
+                            <input type="text" name="phone" id="phone" placeholder="PHONE NUMBER" >
+                        </div>
+                        
+                        <div>
+                            <select>
+                                <option value="subject">SUBJECT</option>
+                                <option value="none">...</option>
+                            </select>
+                        </div>
+                        <div>
+                            <textarea name="textarea" id="textarea" rows="10"></textarea>
+						</div>
+						<p id="send-p">Complete the name, email, phone field to send your message</p>
+                        <button id="send-btn">SEND YOUR MESSAGE</button>
+                    </div>
+                    <img src="./image/contact/map.png" alt="Google map">
+                </div>
+			</div>
+			<button onclick="goTop()" id="btnGoTop" title="Go to top"><img src="./image/home-page/go-top.png" ></button>
+        </main>
+		<footer class="footer">
+			<div class="footer__container flex">
+				<div class="footer__info">
+					<div class="info__readMore">
+						<a href="#" class="footer__logo">
+							<img src="./image/logo.png" alt="Logo-Hillcrest" />
+						</a>
+						<p>
+							Vivamus viverra, ligula non tincidunt pulvi-<br />
+							nar, augue est sagittis leo, id feugiat enim <br />
+							lorem quis nisl.
+						</p>
+						<a href="#" class="info__readMore--logo flex">
+							<img src="./image/logoReadmore.png" alt="logoReadmore" />
+							<p>Read More</p></a
+						>
+						<img src="./image/botomReadMore.png" />
+					</div>
+
+					<div class="info__social left">
+						<div class="info__social--margin flex">
+							<a href="#" class="FUO__logo"
+								><img src="./image/logoFb.png" alt="Facebook"
+							/></a>
+							<div class="info__social--FUO">
+								<p class="FUO__big"><a href="#">Find Us</a></p>
+								<p class="FUO__small"><a href="#">on Facebook</a></p>
+							</div>
+						</div>
+						<div class="info__social--margin flex">
+							<a href="#" class="FUO__logo"
+								><img src="./image/logoPrinterest.png" alt="Printerest"
+							/></a>
+							<div class="info__social--FUO">
+								<p class="FUO__big"><a href="#">Follow Us</a></p>
+								<p class="FUO__small"><a href="#">on Printerest</a></p>
+							</div>
+						</div>
+					</div>
+					<div class="info__social right">
+						<div class="info__social--margin flex">
+							<a href="#" class="FUO__logo"
+								><img src="./image/logoTwitter.png" alt="Twitter"
+							/></a>
+							<div class="info__social--FUO">
+								<p class="FUO__big"><a href="#">Follow Us</a></p>
+								<p class="FUO__small"><a href="#">on Twitter</a></p>
+							</div>
+						</div>
+						<div class="info__social--margin flex">
+							<a href="#" class="FUO__logo"
+								><img src="./image/logoGPlus.png" alt="Google +"
+							/></a>
+							<div class="info__social--FUO">
+								<p class="FUO__big"><a href="#">Find Us</a></p>
+								<p class="FUO__small"><a href="#">on Google +</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="footer__recentPosts">
+					<img src="./image/recentPosts.png" alt="logo-recentPosts" />
+					<table class="footer__recentPosts--table">
+						<tr>
+							<td width="200px">Blog Slideshow Post</td>
+							<td>03 Jul</td>
+						</tr>
+						<tr>
+							<td colspan="2">
+								<img src="./image/boderRecent.png" width="93%" />
+							</td>
+						</tr>
+						<tr>
+							<td>Standard Post</td>
+							<td>27 May</td>
+						</tr>
+						<tr>
+							<td colspan="2">
+								<img src="./image/boderRecent.png" width="93%" />
+							</td>
+						</tr>
+						<tr>
+							<td>Video Post With Quote Post</td>
+							<td>23 May</td>
+						</tr>
+						<tr>
+							<td colspan="2">
+								<img src="./image/boderRecent.png" width="93%" />
+							</td>
+						</tr>
+						<tr>
+							<td>Text Post Only Type</td>
+							<td>15 Apr</td>
+						</tr>
+						<tr>
+							<td colspan="2">
+								<img src="./image/boderRecent.png" width="93%" />
+							</td>
+						</tr>
+						<tr>
+							<td>Awesome Post Title Here</td>
+							<td>04 Mar</td>
+						</tr>
+					</table>
+				</div>
+
+				<div class="footer__tags">
+					<p>Tags Widget</p>
+					<div class="footer__tags--container">
+						<a href="#"><span>Minimalist</span></a>
+						<a href="#"><span>Traditional</span></a>
+						<a href="#"><span>Modern</span></a>
+					</div>
+					<div class="footer__tags--container">
+						<a href="#"><span>Rustic</span></a>
+						<a href="#"><span>Industrial</span></a>
+						<a href="#"><span>Coastal</span></a>
+					</div>
+					<div class="footer__tags--container">
+						<a href="#"><span>Elegant</span></a>
+						<a href="#"><span>Hightech</span></a>
+						<a href="#"><span>Maverick</span></a>
+					</div>
+					<div class="footer__tags--container">
+						<a href="#"><span>Classic</span></a>
+						<a href="#"><span>Transitional</span></a>
+						<a href="#"><span>Retro</span></a>
+					</div>
+				</div>
+
+				<div class="footer__usefulLinks">
+					<p>Useful Links</p>
+					<ul>
+						<li>
+							<a href="#">Design Resource</a>
+						</li>
+						<img src="./image/usefulLinks.png" />
+						<li>
+							<a href="#">Help Center</a>
+						</li>
+						<img src="./image/usefulLinks.png" />
+						<li>
+							<a href="#">Download Center</a>
+						</li>
+						<img src="./image/usefulLinks.png" />
+						<li>
+							<a href="#">Support Forum</a>
+						</li>
+						<img src="./image/usefulLinks.png" />
+						<li>
+							<a href="#">Shortcodes Page Ready</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer__end">
+				<p>
+					Copyright 2018
+					<span
+						style="color:#f8a926
+					"
+						>xxxxxxx</span
+					>. Designed by <span style="color: white">jiteshmanaktala.com</span>
+				</p>
+			</div>
+		</footer>
+	</body>
+</html>
